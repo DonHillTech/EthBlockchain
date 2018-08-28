@@ -1,14 +1,12 @@
 pragma solidity ^0.4.22;
 
-
 contract DrugApprover {
-
   address owner;
   uint drugNumber;
   uint approvalCost;
 
   //All Drugs will have this structure 
-      struct Drug {
+    struct Drug {
         string drugName;
         uint drugNumber;
         uint price;
@@ -38,10 +36,7 @@ contract DrugApprover {
 
   event drugSubmittal(uint drugNum);
   event Buy(uint drugNum);
-  event Shipped(uint sku);
-  event Received(uint sku);
-
-
+  
   constructor() public{
     owner = msg.sender;
     drugNumber=0; 

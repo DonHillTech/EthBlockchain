@@ -2,11 +2,11 @@
 <form role="form">
     <div class="form-group">
         <label for="drugName"> Drug Name</label>
-        <input id="drugName" class="form-control" rows="3" required>
+        <input id="drugName" placeholder="Enter name of drug" [(ngModel)]="newDrug.drugName" name="drugName" class="form-control" rows="3" required>
         <label for="drugPrice">Drug Price</label>
-        <input id="drugPrice" class="form-control" rows="3" required>
+        <input id="drugPrice" placeholder="Enter the price" [(ngModel)]="newDrug.price" name="price" class="form-control" rows="3" required>
         <label for="drugQA">Qty Available </label>
-        <input id="drugQA" class="form-control" rows="3" required>
+        <input id="drugQA" placeholder="Enter the amount available" [(ngModel)]="newDrug.unitsAvailable" name="units" class="form-control" rows="3" required>
     </div>
-    <button type="submit" class="btn btn-success float-right">Submit</button>
+    <button type="submit" (click)="submitDrug()" class="btn btn-success float-right">Submit</button>
 </form>
