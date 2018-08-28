@@ -1,0 +1,252 @@
+{
+  "contractName": "Drug",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820ff32ddc610439960cd3811726d5c80929a556394f96bcd774e31a6614e807ca90029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820ff32ddc610439960cd3811726d5c80929a556394f96bcd774e31a6614e807ca90029",
+  "sourceMap": "27:145:0:-;;;151:19;8:9:-1;5:2;;;30:1;27;20:12;5:2;151:19:0;27:145;;;;;;",
+  "deployedSourceMap": "27:145:0:-;;;;;",
+  "source": "pragma solidity ^0.4.22;\n\n\ncontract Drug {\n   enum Status {\n        New,\n        Submitted,\n        Waiting ,\n        Approved,\n        Denied\n    }\n  constructor() {\n  }\n}\n",
+  "sourcePath": "C:\\Users\\donhill\\Documents\\consensysDevCourse\\regulators\\contracts\\Drug.sol",
+  "ast": {
+    "absolutePath": "/C/Users/donhill/Documents/consensysDevCourse/regulators/contracts/Drug.sol",
+    "exportedSymbols": {
+      "Drug": [
+        12
+      ]
+    },
+    "id": 13,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 12,
+        "linearizedBaseContracts": [
+          12
+        ],
+        "name": "Drug",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Drug.Status",
+            "id": 7,
+            "members": [
+              {
+                "id": 2,
+                "name": "New",
+                "nodeType": "EnumValue",
+                "src": "68:3:0"
+              },
+              {
+                "id": 3,
+                "name": "Submitted",
+                "nodeType": "EnumValue",
+                "src": "81:9:0"
+              },
+              {
+                "id": 4,
+                "name": "Waiting",
+                "nodeType": "EnumValue",
+                "src": "100:7:0"
+              },
+              {
+                "id": 5,
+                "name": "Approved",
+                "nodeType": "EnumValue",
+                "src": "118:8:0"
+              },
+              {
+                "id": 6,
+                "name": "Denied",
+                "nodeType": "EnumValue",
+                "src": "136:6:0"
+              }
+            ],
+            "name": "Status",
+            "nodeType": "EnumDefinition",
+            "src": "46:102:0"
+          },
+          {
+            "body": {
+              "id": 10,
+              "nodeType": "Block",
+              "src": "165:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 11,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 8,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "162:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 9,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "165:0:0"
+            },
+            "scope": 12,
+            "src": "151:19:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 13,
+        "src": "27:145:0"
+      }
+    ],
+    "src": "0:173:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/donhill/Documents/consensysDevCourse/regulators/contracts/Drug.sol",
+    "exportedSymbols": {
+      "Drug": [
+        12
+      ]
+    },
+    "id": 13,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".22"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 12,
+        "linearizedBaseContracts": [
+          12
+        ],
+        "name": "Drug",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Drug.Status",
+            "id": 7,
+            "members": [
+              {
+                "id": 2,
+                "name": "New",
+                "nodeType": "EnumValue",
+                "src": "68:3:0"
+              },
+              {
+                "id": 3,
+                "name": "Submitted",
+                "nodeType": "EnumValue",
+                "src": "81:9:0"
+              },
+              {
+                "id": 4,
+                "name": "Waiting",
+                "nodeType": "EnumValue",
+                "src": "100:7:0"
+              },
+              {
+                "id": 5,
+                "name": "Approved",
+                "nodeType": "EnumValue",
+                "src": "118:8:0"
+              },
+              {
+                "id": 6,
+                "name": "Denied",
+                "nodeType": "EnumValue",
+                "src": "136:6:0"
+              }
+            ],
+            "name": "Status",
+            "nodeType": "EnumDefinition",
+            "src": "46:102:0"
+          },
+          {
+            "body": {
+              "id": 10,
+              "nodeType": "Block",
+              "src": "165:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 11,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 8,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "162:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 9,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "165:0:0"
+            },
+            "scope": 12,
+            "src": "151:19:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 13,
+        "src": "27:145:0"
+      }
+    ],
+    "src": "0:173:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-08-27T22:27:32.405Z"
+}
